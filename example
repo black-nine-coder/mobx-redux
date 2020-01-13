@@ -1,0 +1,57 @@
+Mobx Redux 비교 예제
+
+http://woowabros.github.io/experience/2019/01/02/kimcj-react-mobx.html
+https://afrobambacar.github.io/2018/11/redux-or-mobx.html
+https://brunch.co.kr/@hee072794/108
+https://www.slideshare.net/hyunseoblee7/mobx-mst-state-management-109460634
+https://velog.io/@velopert/redux-or-mobx
+
+
+
+Redux, Flux 개념
+
+https://taegon.kim/archives/5288
+https://engineering.huiseoul.com/react-redux-intro-bbff95b14cdf
+https://medium.com/@RianCommunity/%EB%A6%AC%EC%95%88-%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EA%B8%B0-2-front-end-%EA%B0%9C%EB%B0%9C-react-9f6ccb5b016d
+
+MobX 설치
+
+https://byseop.netlify.com/create-react-app-mobx/
+
+
+Mobx 예제
+
+https://stackblitz.com/edit/mobx-example?file=components%2FTodoApp.js
+https://codesandbox.io/s/jzj48v2xry?module=%2Fsrc%2FObservePerson.tsx
+https://www.spectory.com/blog/MobX%20with%20React%20Introduction
+https://github.com/kjk7034/create-react-app-typescript-mobx
+https://byseop.netlify.com/mobx-tutorial01/
+
+MobX 설치
+
+1. create-react-app myApp
+2. npm install eject --save
+3. npm run eject
+4. npm install babel-plugin-transform-decorators-legacy --save
+5. packge.json 수정
+"babel": {
+  "plugins": [
+    "transform-decorators-legacy"
+  ],
+  "presets": [
+    "react-app"
+  ]
+}
+
+babel 7버전 이상이면
+"babel": {
+  "plugins": [
+    ["@babel/plugin-proposal-decorators", { "legacy": true }]
+  ],
+  "presets": [
+    "react-app"
+  ]
+}
+https://www.npmjs.com/package/babel-plugin-transform-decorators-legacy
+
+6. npm install mobx mobx-react --save
